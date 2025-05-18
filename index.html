@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IlhamTravel - Jelajahi Keindahan Indonesia</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+   <header>
+    <div class="container">
+        <div class="navbar">
+            <a href="#" class="logo">
+                <i class="fas fa-plane"></i>  <!-- Hanya mengganti ikonnya saja -->
+                <span>IlhamTravel✈️</span>  <!-- Teks tetap dipertahankan -->
+            </a>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#destinations">Destinasi</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Jelajahi Keindahan Indonesia</h1>
+                <p>Temukan pengalaman wisata tak terlupakan dengan destinasi terbaik di seluruh penjuru negeri. Mulai petualangan Anda sekarang!</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Cari destinasi wisata...">
+                    <button><i class="fas fa-search"></i> Cari</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinasi Section -->
+   <section class="destinations" id="destinations">
+    <div class="container">
+        <h2 class="section-title">Destinasi Populer</h2>
+        <div class="destinations-grid" id="destinations-grid">
+            <!-- Contoh destinasi dengan link -->
+            <div class="destination-card">
+                <a href="https://happytour.id/" class="destination-link">
+                    <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bali">
+                    <div class="destination-info">
+                        <h3>Bali</h3>
+                        <p>Pulau Dewata dengan pantai eksotis dan budaya yang kaya</p>
+                        <span class="price">Mulai dari Rp 1.500.000</span>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="destination-card">
+                <a href="destinasi/raja-ampat.html" class="destination-link">
+                    <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Raja Ampat">
+                    <div class="destination-info">
+                        <h3>Raja Ampat</h3>
+                        <p>Surga bawah laut dengan keanekaragaman hayati terbaik di dunia</p>
+                        <span class="price">Mulai dari Rp 3.200.000</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Destinasi lainnya akan diisi oleh JavaScript -->
+        </div>
+    </div>
+</section>
+
+    <!-- Layanan Section -->
+   <section class="services" id="services">
+    <div class="container">
+        <h2 class="section-title">Layanan Kami</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <a href="https://happytour.id/" class="service-link">
+                    <div class="service-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3 class="service-title">Paket Wisata</h3>
+                    <p class="service-description">Kami menyediakan berbagai paket wisata dengan itinerary lengkap dan harga terbaik.</p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="https://www.agoda.com/id-id/?site_id=1915013&tag=8cd2cf03-3f16-41ac-a1f1-d05174a807a3&device=c&network=o&msclkid=072e567b820117bb83dc3e65d5090e74&pslc=1&ds=NucVx35Dcsd9HEQj" class="service-link" target="_blank">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3 class="service-title">Pemesanan Hotel</h3>
+                    <p class="service-description">Booking hotel dengan harga khusus dan fasilitas terbaik di seluruh Indonesia.</p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="https://www.traveloka.com/en-id/flight" class="service-link">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3 class="service-title">Tiket Pesawat</h3>
+                    <p class="service-description">Pesan tiket pesawat dengan harga murah di traveloka.</p>
+                </a>
+            </div>
+            <div class="service-card">
+                <a href="https://www.traveloka.com/en-id/car-rental" class="service-link">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="service-title">Sewa Kendaraan</h3>
+                    <p class="service-description">Sewa mobil, motor, atau bus dengan supir profesional untuk kenyamanan perjalanan Anda.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimoni Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Apa Kata Mereka</h2>
+            <div class="testimonials-container">
+                </div>
+               
+                <div class="testimonial-slide">
+                    <p class="testimonial-text">"yang buat web ganteng bangett"</p>
+                    <div class="testimonial-author">
+                        <img src="http://1.bp.blogspot.com/-Lex14L21obs/VVXA-SA8OcI/AAAAAAAAJuk/yJBdakusPRM/s1600/gambar%2Bbebek%2B(19).jpg" alt="Dewi" class="author-img">
+                        <div class="author-info">
+                            <h4>Fania Putri</h4>
+                            <p>Istri Ilham</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active" data-slide="0"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Galeri Wisata</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bali">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Raja Ampat">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Bromo">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Labuan Bajo">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Borobudur">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1505993597083-3bd19fb75e57?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Pulau Komodo">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1533856493584-0c6ca8ca9ce3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Danau Toba">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560264418-c4445382edbc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Ubud">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">Artikel Terbaru</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Tips Traveling">
+                    <div class="blog-content">
+                        <p class="blog-date">15 Juni 2023</p>
+                        <h3 class="blog-title">10 Tips Traveling Murah ala Backpacker</h3>
+                        <p class="blog-excerpt">Pelajari cara menikmati perjalanan dengan budget terbatas tanpa mengurangi kualitas liburan Anda...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-eye"></i> 1.2k</span>
+                            <span><i class="far fa-comment"></i> 45</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Kuliner Bali">
+                    <div class="blog-content">
+                        <p class="blog-date">8 Juni 2023</p>
+                        <h3 class="blog-title">Jajanan Khas Bali yang Wajib Dicoba</h3>
+                        <p class="blog-excerpt">Bali tidak hanya menawarkan keindahan alam tapi juga kuliner lezat. Berikut rekomendasi makanan khas Bali...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-eye"></i> 980</span>
+                            <span><i class="far fa-comment"></i> 32</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Hidden Gem">
+                    <div class="blog-content">
+                        <p class="blog-date">1 Juni 2023</p>
+                        <h3 class="blog-title">5 Hidden Gem di Jawa Barat yang Masih Asri</h3>
+                        <p class="blog-excerpt">Temukan destinasi tersembunyi di Jawa Barat yang masih alami dan belum banyak dikunjungi wisatawan...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-eye"></i> 1.5k</span>
+                            <span><i class="far fa-comment"></i> 67</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Berlangganan Newsletter Kami</h2>
+            <p>Dapatkan informasi terbaru tentang promo, destinasi wisata, dan tips traveling langsung ke email Anda.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Masukkan alamat email Anda" required>
+                <button type="submit">Berlangganan</button>
+            </form>
+        </div>
+    </section>
+
+        <!-- Social Media Section -->
+    <section class="social-media">
+        <div class="container">
+            <h2 class="section-title">Ikuti Kami di Media Sosial</h2>
+            <p class="section-subtitle">Dapatkan update terbaru, promo menarik, dan konten wisata eksklusif</p>
+            <div class="social-media-grid">
+                <a href="https://www.instagram.com/ilhammsptra_/#" class="social-media-card instagram">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>Ilhammsptra_</p>
+                    <span class="follow-btn">Ikuti Kami</span>
+                </a>
+                <a href="https://www.youtube.com/@depokvidgramofficial1390" class="social-media-card youtube">
+                    <i class="fab fa-youtube"></i>
+                    <h3>YouTube</h3>
+                    <p>DepokVidgram</p>
+                    <span class="follow-btn">Subscribe</span>
+                </a>
+                <a href="https://www.tiktok.com/@ninetofive925" class="social-media-card tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <h3>TikTok</h3>
+                    <p>ninetofive925</p>
+                    <span class="follow-btn">Follow</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Tentang Kami</h3>
+                    <p>IlhamTravel adalah platform wisata terpercaya yang membantu Anda menemukan dan merencanakan perjalanan impian ke berbagai destinasi di Indonesia.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Link Cepat</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#destinations">Destinasi</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Layanan</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Paket Wisata</a></li>
+                        <li><a href="https://www.agoda.com/id-id/?site_id=1915013&tag=8cd2cf03-3f16-41ac-a1f1-d05174a807a3&device=c&network=o&msclkid=072e567b820117bb83dc3e65d5090e74&pslc=1&ds=NucVx35Dcsd9HEQj">Pemesanan Hotel</a></li>
+                        <li><a href="#">Tiket Pesawat</a></li>
+                        <li><a href="#">Sewa Kendaraan</a></li>
+                        <li><a href="#">Tour Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Depok No. 123, Jawa Barat</p>
+                    <p><i class="fas fa-phone"></i> (895324017432)</p>
+                    <p><i class="fas fa-envelope"></i> info@IlhamTravel.id</p>
+                    <p><i class="fas fa-clock"></i> Senin - Jumat: 09.00 - 17.00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 IlhamTravel. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Destination Modal -->
+    <div class="modal" id="destination-modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-modal">&times;</button>
+            <div class="destination-modal">
+                <img src="" alt="" class="modal-img" id="modal-img">
+                <div class="modal-body">
+                    <h2 class="modal-title" id="modal-title"></h2>
+                    <div class="modal-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="modal-location"></span>
+                    </div>
+                    <p class="modal-description" id="modal-description"></p>
+                    <div class="modal-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Rating</h4>
+                                <p id="modal-rating"></p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Durasi</h4>
+                                <p id="modal-duration"></p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Group Size</h4>
+                                <p id="modal-group"></p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Ketersediaan</h4>
+                                <p id="modal-availability"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-price" id="modal-price"></div>
+                    <button class="btn btn-accent">Pesan Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
